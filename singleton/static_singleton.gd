@@ -1,5 +1,7 @@
 class_name StaticSingleton
 extends Object
+## Use static singletons when you don't need runtime operations like
+## get_node or add_child. For example, a global player class.
 
 enum Flags {
 	FLAG_A,
